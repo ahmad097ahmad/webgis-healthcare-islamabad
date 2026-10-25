@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #222;
+}
+
+header {
+  background: #1b6ca8;
+  color: white;
+  padding: 15px 20px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 1.6rem;
+}
+
+header p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+#controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 20px;
+  background: white;
+  flex-wrap: wrap;
+}
+
+#search, #filter {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+#search {
+  width: 250px;
+}
+
+#count {
+  font-weight: bold;
+}
+
+#status {
+  padding: 8px 20px;
+  font-weight: bold;
+  color: #b00020;
+}
+
+#map {
+  height: 70vh;
+  width: 100%;
+}
+
+footer {
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  background: white;
+}

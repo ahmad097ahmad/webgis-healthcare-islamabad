@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Facilities in Islamabad</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Healthcare Facilities in Islamabad</h1>
+    <p><strong>Study area:</strong> Islamabad Capital Territory, Pakistan. This map shows hospitals, clinics and pharmacies and their available details.</p>
+    <p><strong>Data source:</strong> OpenStreetMap, fetched live through the Overpass API.</p>
+  </header>
+
+  <section id="controls">
+    <input type="text" id="search" placeholder="Search by name...">
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="hospital">Hospitals</option>
+      <option value="clinic">Clinics</option>
+      <option value="pharmacy">Pharmacies</option>
+    </select>
+    <span id="count"></span>
+  </section>
+
+  <div id="status"></div>
+  <div id="map"></div>
+
+  <footer>
+    <p>Data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL). Map built with <a href="https://leafletjs.com">Leaflet</a>.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
